@@ -50,6 +50,6 @@ function actFile(filePath, signCont) {
         var finalResult = buffer.concat([new buffer(notes(signCont, filePath)), data]);
         fs.unlinkSync(filePath);
         fs.writeFileSync(filePath, finalResult);
-        process.stdout.write('done\r\n');
+        process.stdout.write('done ! \r\n');
     });
 }
