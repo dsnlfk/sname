@@ -16,3 +16,4 @@ npm install -g sname
 多文件 sname test.html test.js test.css
 目录下所有文件 sname dir/
 ```
+test
